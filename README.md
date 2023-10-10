@@ -1,5 +1,7 @@
 # The N-word Counter Bot
 
+FORKED FROM https://github.com/Vaiterius/N-Word-Counter-Bot , updated to my own preferences
+
 [![Python application](https://github.com/Vaiterius/N-Word-Counter-Bot/actions/workflows/python-app.yml/badge.svg)](https://github.com/Vaiterius/N-Word-Counter-Bot/actions/workflows/python-app.yml)
 
 User said the n-word? CAUGHT IN 4K 🤨📸
