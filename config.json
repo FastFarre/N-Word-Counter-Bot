@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
     "DISCORD_TOKEN": "MTE1ODY3Njg2MDM3NzUwOTk1OA.G-iD1i.08lDI_R4Ni92zhyD7qoPA9RYj4d7SJU9AfkheY",
     "MONGO_URL": "mongodb+srv://firredc9620:aYQE8oPvmHhU7Ekv@cluster'0.zy4sost.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+=======
+    "DISCORD_TOKEN": "",
+    "MONGO_URL": ""
+>>>>>>> 15ce78c62e499208e45f25230e452d2635052d13
 }

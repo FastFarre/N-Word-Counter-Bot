@@ -12,16 +12,26 @@ from utils.discord import convert_color, generate_message_embed
 NWORDS_LIST = [
     (chr(110) + chr(105) + chr(103) + chr(103) + chr(97)),
     (chr(47) + chr(92) + chr(47) + chr(105) + chr(103) + chr(103) + chr(97)),
+<<<<<<< HEAD
     (chr(124) + chr(92) + chr(47) + chr(105) + chr(103) + chr(103) + chr(97)),
     (chr(110) + chr(101) + chr(103) + chr(103) + chr(114)),
+=======
+    (chr(124) + chr(92) + chr(47) + chr(105) + chr(103) + chr(103) + chr(97))
+]
+HARD_RS_LIST = [
+>>>>>>> 15ce78c62e499208e45f25230e452d2635052d13
     (chr(110) + chr(105) + chr(103) + chr(103) + chr(101) + chr(114)),
     (chr(47) + chr(92) + chr(47) + chr(105) + chr(103) + chr(103) + chr(101) +
      chr(114)),
     (chr(124) + chr(92) + chr(47) + chr(105) + chr(103) + chr(103) + chr(101) +
+<<<<<<< HEAD
      chr(114)),
     'neger',
     'zwarten'
 ]
+=======
+     chr(114))]
+>>>>>>> 15ce78c62e499208e45f25230e452d2635052d13
 
 
 class NWordCounter(commands.Cog):
@@ -34,6 +44,10 @@ class NWordCounter(commands.Cog):
         self.db = Database()
 
         self.sacred_n_words = NWORDS_LIST
+<<<<<<< HEAD
+=======
+        self.sacred_hard_r_words = HARD_RS_LIST
+>>>>>>> 15ce78c62e499208e45f25230e452d2635052d13
 
     def count_nwords(self, msg: str) -> int:
         """Return occurrences of n-words in a given message"""
@@ -48,6 +62,11 @@ class NWordCounter(commands.Cog):
                 count -= 1  # subtract 1 from count if word is in message
         for n_word in self.sacred_n_words:
             count += msg.count(n_word)
+<<<<<<< HEAD
+=======
+        for hard_r in self.sacred_hard_r_words:
+            count += msg.count(hard_r)
+>>>>>>> 15ce78c62e499208e45f25230e452d2635052d13
         # Return count if count is positive, else return 0
         return count if count >= 0 else 0
 
