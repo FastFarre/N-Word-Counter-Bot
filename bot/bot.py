@@ -31,15 +31,10 @@ intents.message_content = True
 intents.presences = False
 
 bot = commands.AutoShardedBot(
-<<<<<<< HEAD
     intents=intents,
-    owner_ids=(748149234296946708, 750406317084246168))
-=======
-    # shard_count=5, remove to automatically calculate depending on guild count.
-    intents=intents,
-    owner_ids=(354783154126716938, 691896247052927006, 234248229426823168)
-)
->>>>>>> 15ce78c62e499208e45f25230e452d2635052d13
+    owner_ids=(748149234296946708, 750406317084246168)
+    )
+
 
 # Logging (DEBUG clogs my stdout).
 logger = logging.getLogger("discord")
