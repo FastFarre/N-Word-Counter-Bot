@@ -1,0 +1,11 @@
+2023-10-10 21:54:24,653:INFO:discord.client: logging in using static token
+2023-10-10 21:54:25,333:INFO:discord.gateway: Shard ID 0 has sent the IDENTIFY payload.
+2023-10-10 21:54:25,592:INFO:discord.gateway: Shard ID 0 has connected to Gateway: ["gateway-prd-us-east1-d-lj4h",{"micros":133264,"calls":["id_created",{"micros":854,"calls":[]},"session_lookup_time",{"micros":345,"calls":[]},"session_lookup_finished",{"micros":22,"calls":[]},"discord-sessions-prd-2-141",{"micros":131190,"calls":["start_session",{"micros":87298,"calls":["discord-api-5b54cd748-dj44w",{"micros":81140,"calls":["get_user",{"micros":33936},"get_guilds",{"micros":5238},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":663},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":17360,"calls":[]},"guilds_started",{"micros":137,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":26295,"calls":[]},"connect_finished",{"micros":26302,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: be3b56303938e481bae10d18c0e83322).
+2023-10-10 21:54:27,597:INFO:discord: n word counter connected!
+2023-10-10 21:54:27,597:INFO:discord: Using Discord.py version 2.4.1
+2023-10-10 21:54:27,597:INFO:discord: Using Python version 3.10.12
+2023-10-10 21:54:27,597:INFO:discord: Running on Linux 6.2.0-32-generic (posix)
+2023-10-10 22:00:49,357:INFO:discord.client: Cleaning up tasks.
+2023-10-10 22:00:49,357:INFO:discord.client: Cleaning up after 2 tasks.
+2023-10-10 22:00:49,478:INFO:discord.client: All tasks finished cancelling.
+2023-10-10 22:00:49,479:INFO:discord.client: Closing the event loop.
